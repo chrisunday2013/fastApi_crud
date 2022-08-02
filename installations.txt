@@ -1,0 +1,3 @@
+install python-jose using pip install "python-jose[cryptography]" for jwt
+install passlib with "Bcrypt" for handling of hashes using pip install "passlib[bcrypt]"
+openssl rand -hex 32 to generate a secure random key that will be used to sign the jwt tokens
