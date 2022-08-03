@@ -14,7 +14,10 @@ from pydantic import BaseModel, ValidationError
 
 # to get a string like this run:
 # openssl rand -hex 32
-SECRET_KEY = "e991cc6b58374d6cd468504a76170f8778dabbcc379005e352bbd2f11f454dd9"
+
+
+# uncomment SECRET_KEY
+# SECRET_KEY = "e991cc6b58374d6cd468504a76170f8778dabbcc379005e352bbd2f11f454dd9"
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 30
 

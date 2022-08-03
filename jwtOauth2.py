@@ -9,7 +9,10 @@ from pydantic import BaseModel
 
 # to get a string like this run:
 # openssl rand -hex 32
-SECRET_KEY = "395c660130878e3329ff66941b6bcce7ee4f93cd971c5941ea4c8878bacb9674"
+
+
+# uncomment SECRET_KEY
+# SECRET_KEY = "395c660130878e3329ff66941b6bcce7ee4f93cd971c5941ea4c8878bacb9674"
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 30
 
